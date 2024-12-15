@@ -12,10 +12,10 @@
 # Websites
 1. Quotes to Scrape
 # Steps Overview
-1. Download the libraries by using their respected websites
+1. Download the libraries by using their respective websites
 2. Install the libraries into Thonny
 3. Finding information to scrape
-4. Retreave the HTML and define authours and quotes
+4. Retrieve the HTML and define authors and quotes
 5. Write code and test
 
 # Download the package libraries
@@ -29,7 +29,7 @@
 
 * These are required in order to both retrieve then parse the HTML
 
-# install the Libraries into Thonny
+# Install the Libraries into Thonny
  1. Find the tar.gz files inside your downloads (now is a good time to mention you can pip instal these libraries using command prompt but it's much easier and foolproof to download then install as local files when using Thonny)
 
 ![Screenshot 2024-12-14 112925](https://github.com/user-attachments/assets/85c313b3-656e-4f79-b82a-177044b5c3a9)
@@ -42,7 +42,7 @@
 
 ![Screenshot 2024-12-14 112359](https://github.com/user-attachments/assets/cc2e4824-4cdc-4f52-b831-b31e3883372c)
 
-# finding HTML to scrape
+# Finding HTML to scrape
 1.Scraping from websites is a lot like Copyright law, in that you must find a website okay with scraping. This Project will be using https://quotes.toscrape.com/ which is a wonderful website built for the purpose of testing Scrape programs.
 
 ![Screenshot (1)](https://github.com/user-attachments/assets/e3ac5050-051f-4758-9c0c-6bd4cd5283db)
