@@ -8,7 +8,7 @@
 1. Thonny (easy to use Python environment)
 # Python libraries
 1. BeautifulSoup
-2. Request
+2. Requests
 # Websites
 1. Quotes to Scrape
 # Steps Overview
@@ -27,7 +27,7 @@
 
  ![Screenshot 2024-12-14 111425](https://github.com/user-attachments/assets/4f09dd56-6978-489f-ad3f-e9b966e69554)
 
-* Both package libraries are required in order to retrieve (BeautifulSoup) then parse (Request) the HTML
+* Both package libraries are required in order to retrieve (BeautifulSoup) then parse (Requests) the HTML
 
 # Install the Libraries into Thonny
  1. Find the tar.gz files inside your downloads (now is a good time to mention you can pip instal these libraries using command prompt, but it's much easier and foolproof to download then install as local files when using Thonny)
