@@ -56,7 +56,7 @@
 ![Screenshot 2024-12-15 102549](https://github.com/user-attachments/assets/352e804a-9aa1-456d-8051-322e3eff303b)
 
 # Writing the Code
-Now to write our code, we will start with telling the program to use the packages we downloaded earlier, then tell it what website we are scraping from, use BeautifulSoup to start scraping, define quotes and authors, then use zip to properly organize the information.
+Now to write our code. We will start with telling the program to use the packages we downloaded earlier, then tell it what website we are scraping from, use BeautifulSoup to start scraping, define quotes and authors, and use zip to properly organize the information.
 
 ```python
  from bs4 import BeautifulSoup
