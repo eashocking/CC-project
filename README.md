@@ -30,7 +30,7 @@
 * Both package libraries are required in order to retrieve (BeautifulSoup) then parse (Requests) the HTML
 
 # Install the Libraries into Thonny
- 1. Find the tar.gz files inside your downloads (now is a good time to mention you can pip instal these libraries using command prompt, but it's much easier and foolproof to download then install as local files when using Thonny)
+ 1. Find the tar.gz files inside your downloads (now is a good time to mention that you can pip install these libraries using Command Prompt, but it's much easier and foolproof to download then install as local files when using Thonny)
 
 ![Screenshot 2024-12-14 112925](https://github.com/user-attachments/assets/85c313b3-656e-4f79-b82a-177044b5c3a9)
 
