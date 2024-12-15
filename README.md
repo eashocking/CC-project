@@ -1,5 +1,5 @@
-# Creating a Web Scraping Program
-* This will be an introduction on how to create a basic web scraping program
+# Description
+* This is an introduction on how to create a basic web scraping program. We will go over how to install packages that aid in retrieving HTML, parsing the information, then, utilizing a Python based coding platform, combine it together to be able to produce concise and organized information.
 
 # Operating System Used
 * Windows 11
