@@ -56,7 +56,24 @@
 ![text](https://github.com/user-attachments/assets/fc6f7269-2fe4-4962-87e3-3b2347d52aeb)
 
 # Writing the Code
-We now need 10 lines of code starting with deplying the packages we downloaded earlier as so.
+We now will write our code, we will start with telling the program to use the packages we downloaded earlier, we will then tell it what website we are scraping from, use beautifulsoup to start scraing, define quotes and authers, then use zip to prperly orgonize the info.
+
+```python
+ from bs4 import BeautifulSoup
+import requests
+
+page_to_scrape = requests.get("http://quotes.toscrape.com")
+soup = BeautifulSoup (page_to_scrape.text, "html.parser")
+quotes = soup.findAll ("span", attrs={"class":"text"})
+authors = soup.findAll("small", attrs={"class":"author"})
+
+for quote, author in zip(quotes, authors):
+    print(quote.text + "-" + author.text)
+
+```
+# Final result
+
+![Screenshot 2024-12-15 040851](https://github.com/user-attachments/assets/cd82dba7-7586-4b3f-8212-d9240cf3bfe2)
 
 
 
