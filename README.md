@@ -1,5 +1,5 @@
 # Creating a web scraping program
-* This will be a intro on how to create a basic web scraping program
+* This will be a introduction on how to create a basic web scraping program
 
 # Operating System used
 * Windows 11
@@ -7,15 +7,15 @@
 # Programs
 1. Thonny (easy to use python enviroment)
 # Python libraries
-1. Beautiful soup
+1. BeautifulSoup
 2. Request
 # Websites
 1. Quotes to Scrape
 # Steps Overview
-1. Download the librarys by using their respected websites
-2. Instal the librarys into Thonny
-3. Finding info to scrape
-4. Retreave the HTML and define authers and quotes
+1. Download the libraries by using their respected websites
+2. Install the libraries into Thonny
+3. Finding information to scrape
+4. Retreave the HTML and define authours and quotes
 5. Write code and test
 
 # Download the package libraries
@@ -27,27 +27,27 @@
 
  ![Screenshot 2024-12-14 111425](https://github.com/user-attachments/assets/4f09dd56-6978-489f-ad3f-e9b966e69554)
 
-* These are requered in order to both retreave then parse the HTML
+* These are required in order to both retrieve then parse the HTML
 
-# intal the Libraries into Thonny
- 1. Find the tar.gz files inside your downloads (now is a good time to mention you can pip instal these librarys using command prompt but its much easier and foolproof to download then instal as local files when using Thonny)
+# install the Libraries into Thonny
+ 1. Find the tar.gz files inside your downloads (now is a good time to mention you can pip instal these libraries using command prompt but it's much easier and foolproof to download then install as local files when using Thonny)
 
 ![Screenshot 2024-12-14 112925](https://github.com/user-attachments/assets/85c313b3-656e-4f79-b82a-177044b5c3a9)
 
-2. Open Thonny and open the tools tab clicking manage packagaes
+2. Open Thonny and open the tools tab clicking "Manage packages"
 
 ![Screenshot 2024-12-14 112250](https://github.com/user-attachments/assets/b3e4977d-d22e-4e3f-baed-68f63b61a9ba)
 
-3. In the "INSTAL" tab look for "instal from local files" and click "here".
+3. In the "INSTALL" tab look for "Install from local files" and click "here".
 
 ![Screenshot 2024-12-14 112359](https://github.com/user-attachments/assets/cc2e4824-4cdc-4f52-b831-b31e3883372c)
 
 # finding HTML to scrape
-1.Scraping from websites is alot like Copyright law in you must find a website that is okay with scraping. This Project will be using https://quotes.toscrape.com/ a wonderful website built for the perpose of testing Scrape programs.
+1.Scraping from websites is a lot like Copyright law, in that you must find a website okay with scraping. This Project will be using https://quotes.toscrape.com/ which is a wonderful website built for the purpose of testing Scrape programs.
 
 ![Screenshot (1)](https://github.com/user-attachments/assets/e3ac5050-051f-4758-9c0c-6bd4cd5283db)
 
-2. Right click the the quote and look for the HTML with the tag "text". This will be the quote we scrape.
+2. Right click the quote and look for the HTML with the tag "text". This will be the quote we scrape.
 
 ![text](https://github.com/user-attachments/assets/1e63ffb2-e0ce-4d4d-9d3f-1318e43d552f)
 
@@ -56,7 +56,7 @@
 ![text](https://github.com/user-attachments/assets/fc6f7269-2fe4-4962-87e3-3b2347d52aeb)
 
 # Writing the Code
-We now will write our code, we will start with telling the program to use the packages we downloaded earlier, we will then tell it what website we are scraping from, use beautifulsoup to start scraing, define quotes and authers, then use zip to prperly orgonize the info.
+Now to write our code, we will start with telling the program to use the packages we downloaded earlier, then tell it what website we are scraping from, use beautifulsoup to start scraping, define quotes and authors, then use zip to properly organize the information.
 
 ```python
  from bs4 import BeautifulSoup
