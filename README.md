@@ -34,7 +34,7 @@
 
 ![Screenshot 2024-12-14 112925](https://github.com/user-attachments/assets/85c313b3-656e-4f79-b82a-177044b5c3a9)
 
-2. Open Thonny and open the tools tab clicking "Manage packages"
+2. Open Thonny, click "Tools" tab then "Manage packages"
 
 ![Screenshot 2024-12-14 112250](https://github.com/user-attachments/assets/b3e4977d-d22e-4e3f-baed-68f63b61a9ba)
 
