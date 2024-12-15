@@ -38,7 +38,7 @@
 
 ![Screenshot 2024-12-14 112250](https://github.com/user-attachments/assets/b3e4977d-d22e-4e3f-baed-68f63b61a9ba)
 
-3. In the "INSTALL" tab look for "Install from local files" and click "here".
+3. In the "INSTALL" tab look for "Install from local file" and click "here".
 
 ![Screenshot 2024-12-14 112359](https://github.com/user-attachments/assets/cc2e4824-4cdc-4f52-b831-b31e3883372c)
 
