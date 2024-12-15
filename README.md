@@ -1,12 +1,12 @@
-# Creating a web scraping program
+# Creating a Web Scraping Program
 * This will be an introduction on how to create a basic web scraping program
 
-# Operating System used
+# Operating System Used
 * Windows 11
 
 # Programs
 1. Thonny (easy to use Python environment)
-# Python libraries
+# Python Libraries
 1. BeautifulSoup
 2. Requests
 # Websites
@@ -18,7 +18,7 @@
 4. Retrieve the HTML and define authors and quotes
 5. Write code and test
 
-# Download the package libraries
+# Download the Package Libraries
 1.https://www.crummy.com/software/BeautifulSoup/#Download
 
  ![Screenshot 2024-12-14 111034](https://github.com/user-attachments/assets/559dcf2d-98fd-4416-8760-653e9d6fb931)
@@ -42,7 +42,7 @@
 
 ![Screenshot 2024-12-14 112359](https://github.com/user-attachments/assets/cc2e4824-4cdc-4f52-b831-b31e3883372c)
 
-# Finding HTML to scrape
+# Finding HTML to Scrape
 1.Scraping from websites is a lot like Copyright law, in that you must find a website okay with scraping. This project will be using https://quotes.toscrape.com/ which is a wonderful website built for the purpose of testing Scrape programs.
 
 ![Screenshot (1)](https://github.com/user-attachments/assets/e3ac5050-051f-4758-9c0c-6bd4cd5283db)
@@ -71,7 +71,7 @@ for quote, author in zip(quotes, authors):
     print(quote.text + "-" + author.text)
 
 ```
-# Final result
+# Final Result
 
 ![Screenshot 2024-12-15 040851](https://github.com/user-attachments/assets/cd82dba7-7586-4b3f-8212-d9240cf3bfe2)
 
