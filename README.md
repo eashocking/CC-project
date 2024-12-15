@@ -1,5 +1,5 @@
 # Creating a web scraping program
-* This will be a introduction on how to create a basic web scraping program
+* This will be an introduction on how to create a basic web scraping program
 
 # Operating System used
 * Windows 11
