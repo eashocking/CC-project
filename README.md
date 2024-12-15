@@ -5,7 +5,7 @@
 * Windows 11
 
 # Programs
-1. Thonny (easy to use python enviroment)
+1. Thonny (easy to use Python environment)
 # Python libraries
 1. BeautifulSoup
 2. Request
@@ -30,7 +30,7 @@
 * These are required in order to both retrieve then parse the HTML
 
 # Install the Libraries into Thonny
- 1. Find the tar.gz files inside your downloads (now is a good time to mention you can pip instal these libraries using command prompt but it's much easier and foolproof to download then install as local files when using Thonny)
+ 1. Find the tar.gz files inside your downloads (now is a good time to mention you can pip instal these libraries using command prompt, but it's much easier and foolproof to download then install as local files when using Thonny)
 
 ![Screenshot 2024-12-14 112925](https://github.com/user-attachments/assets/85c313b3-656e-4f79-b82a-177044b5c3a9)
 
@@ -43,7 +43,7 @@
 ![Screenshot 2024-12-14 112359](https://github.com/user-attachments/assets/cc2e4824-4cdc-4f52-b831-b31e3883372c)
 
 # Finding HTML to scrape
-1.Scraping from websites is a lot like Copyright law, in that you must find a website okay with scraping. This Project will be using https://quotes.toscrape.com/ which is a wonderful website built for the purpose of testing Scrape programs.
+1.Scraping from websites is a lot like Copyright law, in that you must find a website okay with scraping. This project will be using https://quotes.toscrape.com/ which is a wonderful website built for the purpose of testing Scrape programs.
 
 ![Screenshot (1)](https://github.com/user-attachments/assets/e3ac5050-051f-4758-9c0c-6bd4cd5283db)
 
@@ -56,7 +56,7 @@
 ![text](https://github.com/user-attachments/assets/fc6f7269-2fe4-4962-87e3-3b2347d52aeb)
 
 # Writing the Code
-Now to write our code, we will start with telling the program to use the packages we downloaded earlier, then tell it what website we are scraping from, use beautifulsoup to start scraping, define quotes and authors, then use zip to properly organize the information.
+Now to write our code, we will start with telling the program to use the packages we downloaded earlier, then tell it what website we are scraping from, use BeautifulSoup to start scraping, define quotes and authors, then use zip to properly organize the information.
 
 ```python
  from bs4 import BeautifulSoup
