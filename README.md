@@ -14,7 +14,7 @@
 # Steps Overview
 1. Download the libraries by using their respective websites
 2. Install the libraries into Thonny
-3. Finding information to scrape
+3. Find information to scrape
 4. Retrieve the HTML and define authors and quotes
 5. Write code and test
 
